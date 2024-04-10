@@ -1,0 +1,39 @@
+<div *ngIf="isLoading">
+Loading...
+</div>
+<div *ngIf="!isLoading" class="max-w-xl mx-auto mt-8">
+    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+      <h2 class="text-2xl font-bold mb-4">Result Details</h2>
+      <div *ngIf="result; else loading">
+        <div class="mb-4">
+          <strong>Quiz Title:</strong> {{ result.quiz.title }}
+        </div>
+        <div class="mb-4">
+          <strong>Time Spent:</strong> {{ result.timeSpent }} seconds
+        </div>
+        <div class="mb-4">
+          <strong>Total Score:</strong> {{ resultService.calculateTotalScore(result) }}
+        </div>
+        <h3 class="text-lg font-bold mb-2">Answers:</h3>
+        <div *ngFor="let question of result.quiz.questions; let i = index" class="mb-4">
+          <div class="mb-2">{{ question.question }}</div>
+          <ul>
+            <li *ngFor="let option of question.options; let j = index"
+                [ngClass]="{
+                  'bg-green-400': result.chosenAnswers[i] === option && option === question.correctAnswer,
+                  'bg-orange-400': result.chosenAnswers[i] === option && option !== question.correctAnswer,
+                  'bg-yellow-300': result.chosenAnswers[i] !== option
+                }"
+                class="py-2 px-4 rounded-md mb-2"
+            >
+              {{ option }}
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ng-template #loading>
+        <div>Loading...</div>
+      </ng-template>
+    </div>
+  </div>
+  

@@ -1,0 +1,594 @@
+{
+  "quizzes": [
+    {
+      "id": "1",
+      "title": "General Knowledge Quiz",
+      "description": "Test your knowledge with these general questions.",
+      "timeLimit": 60,
+      "imageUrl": "assets/images/quiz-logo.jpg",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the capital of France?",
+          "options": [
+            "Paris",
+            "London",
+            "Berlin",
+            "Rome"
+          ],
+          "correctAnswer": "Paris",
+          "imageUrl": "https://example.com/question-image-1.jpg"
+        },
+        {
+          "id": 2,
+          "question": "What is the largest planet in our solar system?",
+          "options": [
+            "Mars",
+            "Venus",
+            "Jupiter",
+            "Saturn"
+          ],
+          "correctAnswer": "Jupiter",
+          "imageUrl": "https://example.com/question-image-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "35a4",
+      "title": "a",
+      "description": "a",
+      "imageUrl": "/assets/images/360_F_569964847_Wa3tNpPYRGABpplPGSFT3LLB7E2wU0jb.jpg",
+      "questions": [
+        {
+          "question": "1234",
+          "options": [
+            "3",
+            "2",
+            "24",
+            ""
+          ],
+          "imageUrl": "",
+          "correctAnswer": "24"
+        }
+      ],
+      "timeLimit": 1234
+    },
+    {
+      "id": "0433",
+      "title": "1234",
+      "description": "1234",
+      "imageUrl": "/assets/images/biber.png",
+      "questions": [
+        {
+          "question": "what is love",
+          "options": [
+            "a",
+            "1",
+            "12",
+            "123",
+            "3"
+          ],
+          "imageUrl": "",
+          "correctAnswer": "123"
+        }
+      ],
+      "timeLimit": 1234
+    },
+    {
+      "id": "1316",
+      "title": "1234",
+      "description": "1234",
+      "imageUrl": "/assets/images/biber.png",
+      "questions": [
+        {
+          "question": "1234",
+          "options": [
+            "1",
+            "2",
+            "23",
+            "234"
+          ],
+          "imageUrl": "",
+          "correctAnswer": "23"
+        }
+      ],
+      "timeLimit": 1234
+    }
+  ],
+  "results": [
+    {
+      "id": "1",
+      "quiz": {
+        "id": 1,
+        "title": "General Knowledge Quiz",
+        "description": "Test your knowledge with these general questions.",
+        "timeLimit": 60,
+        "imageUrl": "https://example.com/quiz-image.jpg",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is the capital of France?",
+            "options": [
+              "Paris",
+              "London",
+              "Berlin",
+              "Rome"
+            ],
+            "correctAnswer": "Paris",
+            "imageUrl": "https://example.com/question-image-1.jpg"
+          },
+          {
+            "id": 2,
+            "question": "What is the largest planet in our solar system?",
+            "options": [
+              "Mars",
+              "Venus",
+              "Jupiter",
+              "Saturn"
+            ],
+            "correctAnswer": "Jupiter",
+            "imageUrl": "https://example.com/question-image-2.jpg"
+          }
+        ]
+      },
+      "chosenAnswers": [
+        "Paris"
+      ],
+      "timeSpent": 2
+    },
+    {
+      "id": "b22e",
+      "quiz": {
+        "id": "1",
+        "title": "General Knowledge Quiz",
+        "description": "Test your knowledge with these general questions.",
+        "timeLimit": 60,
+        "imageUrl": "https://example.com/quiz-image.jpg",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is the capital of France?",
+            "options": [
+              "Paris",
+              "London",
+              "Berlin",
+              "Rome"
+            ],
+            "correctAnswer": "Paris",
+            "imageUrl": "https://example.com/question-image-1.jpg"
+          },
+          {
+            "id": 2,
+            "question": "What is the largest planet in our solar system?",
+            "options": [
+              "Mars",
+              "Venus",
+              "Jupiter",
+              "Saturn"
+            ],
+            "correctAnswer": "Jupiter",
+            "imageUrl": "https://example.com/question-image-2.jpg"
+          }
+        ]
+      },
+      "chosenAnswers": [
+        "Paris",
+        "Jupiter"
+      ],
+      "timeSpent": 1
+    },
+    {
+      "id": "1e18",
+      "quiz": {
+        "id": "1",
+        "title": "General Knowledge Quiz",
+        "description": "Test your knowledge with these general questions.",
+        "timeLimit": 60,
+        "imageUrl": "https://example.com/quiz-image.jpg",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is the capital of France?",
+            "options": [
+              "Paris",
+              "London",
+              "Berlin",
+              "Rome"
+            ],
+            "correctAnswer": "Paris",
+            "imageUrl": "https://example.com/question-image-1.jpg"
+          },
+          {
+            "id": 2,
+            "question": "What is the largest planet in our solar system?",
+            "options": [
+              "Mars",
+              "Venus",
+              "Jupiter",
+              "Saturn"
+            ],
+            "correctAnswer": "Jupiter",
+            "imageUrl": "https://example.com/question-image-2.jpg"
+          }
+        ]
+      },
+      "chosenAnswers": [
+        "Paris",
+        "Jupiter"
+      ],
+      "timeSpent": 2
+    },
+    {
+      "id": "6395",
+      "quiz": {
+        "id": "1",
+        "title": "General Knowledge Quiz",
+        "description": "Test your knowledge with these general questions.",
+        "timeLimit": 60,
+        "imageUrl": "assets/images/quiz-logo.jpg",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is the capital of France?",
+            "options": [
+              "Paris",
+              "London",
+              "Berlin",
+              "Rome"
+            ],
+            "correctAnswer": "Paris",
+            "imageUrl": "https://example.com/question-image-1.jpg"
+          },
+          {
+            "id": 2,
+            "question": "What is the largest planet in our solar system?",
+            "options": [
+              "Mars",
+              "Venus",
+              "Jupiter",
+              "Saturn"
+            ],
+            "correctAnswer": "Jupiter",
+            "imageUrl": "https://example.com/question-image-2.jpg"
+          }
+        ]
+      },
+      "chosenAnswers": [
+        "London",
+        "Saturn"
+      ],
+      "timeSpent": 5
+    },
+    {
+      "id": "34ec",
+      "quiz": {
+        "id": "1",
+        "title": "General Knowledge Quiz",
+        "description": "Test your knowledge with these general questions.",
+        "timeLimit": 60,
+        "imageUrl": "https://example.com/quiz-image.jpg",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is the capital of France?",
+            "options": [
+              "Paris",
+              "London",
+              "Berlin",
+              "Rome"
+            ],
+            "correctAnswer": "Paris",
+            "imageUrl": "https://example.com/question-image-1.jpg"
+          },
+          {
+            "id": 2,
+            "question": "What is the largest planet in our solar system?",
+            "options": [
+              "Mars",
+              "Venus",
+              "Jupiter",
+              "Saturn"
+            ],
+            "correctAnswer": "Jupiter",
+            "imageUrl": "https://example.com/question-image-2.jpg"
+          }
+        ]
+      },
+      "chosenAnswers": [
+        "Paris",
+        "Jupiter"
+      ],
+      "timeSpent": 5
+    },
+    {
+      "id": "18d3",
+      "quiz": {
+        "id": "1",
+        "title": "General Knowledge Quiz",
+        "description": "Test your knowledge with these general questions.",
+        "timeLimit": 60,
+        "imageUrl": "https://example.com/quiz-image.jpg",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is the capital of France?",
+            "options": [
+              "Paris",
+              "London",
+              "Berlin",
+              "Rome"
+            ],
+            "correctAnswer": "Paris",
+            "imageUrl": "https://example.com/question-image-1.jpg"
+          },
+          {
+            "id": 2,
+            "question": "What is the largest planet in our solar system?",
+            "options": [
+              "Mars",
+              "Venus",
+              "Jupiter",
+              "Saturn"
+            ],
+            "correctAnswer": "Jupiter",
+            "imageUrl": "https://example.com/question-image-2.jpg"
+          }
+        ]
+      },
+      "chosenAnswers": [
+        "London",
+        "Venus"
+      ],
+      "timeSpent": 1
+    },
+    {
+      "id": "4f1e",
+      "quiz": {
+        "id": "1",
+        "title": "General Knowledge Quiz",
+        "description": "Test your knowledge with these general questions.",
+        "timeLimit": 60,
+        "imageUrl": "https://example.com/quiz-image.jpg",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is the capital of France?",
+            "options": [
+              "Paris",
+              "London",
+              "Berlin",
+              "Rome"
+            ],
+            "correctAnswer": "Paris",
+            "imageUrl": "https://example.com/question-image-1.jpg"
+          },
+          {
+            "id": 2,
+            "question": "What is the largest planet in our solar system?",
+            "options": [
+              "Mars",
+              "Venus",
+              "Jupiter",
+              "Saturn"
+            ],
+            "correctAnswer": "Jupiter",
+            "imageUrl": "https://example.com/question-image-2.jpg"
+          }
+        ]
+      },
+      "chosenAnswers": [],
+      "timeSpent": 60
+    },
+    {
+      "id": "399c",
+      "quiz": {
+        "id": "1",
+        "title": "General Knowledge Quiz",
+        "description": "Test your knowledge with these general questions.",
+        "timeLimit": 60,
+        "imageUrl": "https://example.com/quiz-image.jpg",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is the capital of France?",
+            "options": [
+              "Paris",
+              "London",
+              "Berlin",
+              "Rome"
+            ],
+            "correctAnswer": "Paris",
+            "imageUrl": "https://example.com/question-image-1.jpg"
+          },
+          {
+            "id": 2,
+            "question": "What is the largest planet in our solar system?",
+            "options": [
+              "Mars",
+              "Venus",
+              "Jupiter",
+              "Saturn"
+            ],
+            "correctAnswer": "Jupiter",
+            "imageUrl": "https://example.com/question-image-2.jpg"
+          }
+        ]
+      },
+      "chosenAnswers": [],
+      "timeSpent": 60
+    },
+    {
+      "id": "5015",
+      "quiz": {
+        "id": "1",
+        "title": "General Knowledge Quiz",
+        "description": "Test your knowledge with these general questions.",
+        "timeLimit": 60,
+        "imageUrl": "assets/images/quiz-logo.jpg",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is the capital of France?",
+            "options": [
+              "Paris",
+              "London",
+              "Berlin",
+              "Rome"
+            ],
+            "correctAnswer": "Paris",
+            "imageUrl": "https://example.com/question-image-1.jpg"
+          },
+          {
+            "id": 2,
+            "question": "What is the largest planet in our solar system?",
+            "options": [
+              "Mars",
+              "Venus",
+              "Jupiter",
+              "Saturn"
+            ],
+            "correctAnswer": "Jupiter",
+            "imageUrl": "https://example.com/question-image-2.jpg"
+          }
+        ]
+      },
+      "chosenAnswers": [],
+      "timeSpent": 60
+    },
+    {
+      "id": "7524",
+      "quiz": {
+        "id": "1",
+        "title": "General Knowledge Quiz",
+        "description": "Test your knowledge with these general questions.",
+        "timeLimit": 60,
+        "imageUrl": "assets/images/quiz-logo.jpg",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is the capital of France?",
+            "options": [
+              "Paris",
+              "London",
+              "Berlin",
+              "Rome"
+            ],
+            "correctAnswer": "Paris",
+            "imageUrl": "https://example.com/question-image-1.jpg"
+          },
+          {
+            "id": 2,
+            "question": "What is the largest planet in our solar system?",
+            "options": [
+              "Mars",
+              "Venus",
+              "Jupiter",
+              "Saturn"
+            ],
+            "correctAnswer": "Jupiter",
+            "imageUrl": "https://example.com/question-image-2.jpg"
+          }
+        ]
+      },
+      "chosenAnswers": [],
+      "timeSpent": 60
+    },
+    {
+      "id": "89e1",
+      "quiz": {
+        "id": "1",
+        "title": "General Knowledge Quiz",
+        "description": "Test your knowledge with these general questions.",
+        "timeLimit": 60,
+        "imageUrl": "assets/images/quiz-logo.jpg",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is the capital of France?",
+            "options": [
+              "Paris",
+              "London",
+              "Berlin",
+              "Rome"
+            ],
+            "correctAnswer": "Paris",
+            "imageUrl": "https://example.com/question-image-1.jpg"
+          },
+          {
+            "id": 2,
+            "question": "What is the largest planet in our solar system?",
+            "options": [
+              "Mars",
+              "Venus",
+              "Jupiter",
+              "Saturn"
+            ],
+            "correctAnswer": "Jupiter",
+            "imageUrl": "https://example.com/question-image-2.jpg"
+          }
+        ]
+      },
+      "chosenAnswers": [
+        "Berlin",
+        "Jupiter"
+      ],
+      "timeSpent": 0
+    },
+    {
+      "id": "16f4",
+      "quiz": {
+        "id": "0433",
+        "title": "1234",
+        "description": "1234",
+        "imageUrl": "/assets/images/biber.png",
+        "questions": [
+          {
+            "question": "what is love",
+            "options": [
+              "a",
+              "1",
+              "12",
+              "123",
+              "3"
+            ],
+            "imageUrl": "",
+            "correctAnswer": "123"
+          }
+        ],
+        "timeLimit": 1234
+      },
+      "chosenAnswers": [
+        "1"
+      ],
+      "timeSpent": 0
+    },
+    {
+      "id": "3b1d",
+      "quiz": {
+        "id": "0433",
+        "title": "1234",
+        "description": "1234",
+        "imageUrl": "/assets/images/biber.png",
+        "questions": [
+          {
+            "question": "what is love",
+            "options": [
+              "a",
+              "1",
+              "12",
+              "123",
+              "3"
+            ],
+            "imageUrl": "",
+            "correctAnswer": "123"
+          }
+        ],
+        "timeLimit": 1234
+      },
+      "chosenAnswers": [
+        "12"
+      ],
+      "timeSpent": 3
+    }
+  ]
+}
